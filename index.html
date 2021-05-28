@@ -80,10 +80,10 @@
                             <img src="images/segwaytourlogo.png">
                         </div>
                         <div class="formBlock">
-                            <form>
+                            <form action="mail.php" method="POST">
                                 <div class="inputs">
-                                    <input class="input" type="text" name="name" placeholder="Name" required="required">
-                                    <input class="input" type="text" name="phone" placeholder="Phone number" required="required">
+                                    <input class="input" type="text" name="name" placeholder="Name" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
+                                    <input class="input" type="text" name="phone" placeholder="Phone number" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
                                 </div>
                                 <div class="buttonBlock">
                                     <input id="submit1" type="submit" class="submitBtn" value="Send request">
@@ -262,7 +262,7 @@
     <section id="work" class="three">
         <div class="container">
             <h3 data-aos="fade-down" class="mainTitle">How we work</h3>
-            <div class="row workBlock" data-aos="zoom-out">
+            <div class="row workBlock" data-aos="zoom-in">
                 <div class="col-lg-3 col-md-12 workItem">
                     <div class="leftWorkItem"> 
                         <div class="iconBlock">
@@ -501,10 +501,10 @@
                     <div class="submitBlock">
                         <h4 data-aos="fade-down" class="mainTitle">Submit your request now</h4>
                         <h5 data-aos="fade-down" class="mainTitle miniTitle">And get a personalized offer for a SEGWAY TOUR</h5>
-                        <form data-aos="zoom-in">                        
+                        <form action="mail.php" method="POST" data-aos="zoom-in">                        
                             <div class="inputs">
-                                <input class="input" type="text" name="name" placeholder="Name" required="required">
-                                <input class="input" type="text" name="phone" placeholder="Phone number" required="required">
+                                <input class="input" type="text" name="name" placeholder="Name" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
+                                <input class="input" type="text" name="phone" placeholder="Phone number" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
                                 <input id="submit3" type="submit" class="submitBtn" value="Send request">
                             </div>
                             <div class="agreement">
@@ -755,10 +755,10 @@
                         </div>
                     </div>
                     <div class="formBlock" data-aos="zoom-in">
-                        <form>
+                        <form action="mail.php" method="POST">
                             <div class="inputs">
-                                <input class="input" type="text" name="name" placeholder="Name" required="required">
-                                <input class="input" type="text" name="phone" placeholder="Phone number" required="required">
+                                <input class="input" type="text" name="name" placeholder="Name" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
+                                <input class="input" type="text" name="phone" placeholder="Phone number" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
                             </div>
                             <div class="buttonBlock">
                                 <input id="submit4" type="submit" class="submitBtn" value="Send request">
@@ -783,10 +783,10 @@
     <div class="formWrapper">
         <div class="formBlock">
             <img class="formClose" src="images/formClose.png">
-            <form>
+            <form action="mail.php" method="POST">
                 <h4 data-aos="fade-down" class="mainTitle">Back call</h4>
-                <input type="text" name="name" class="input" placeholder="Name" required="required">
-                <input type="text" name="name" class="input" placeholder="Phone number" required="required">
+                <input type="text" name="name" class="input" placeholder="Name" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
+                <input type="text" name="phone" class="input" placeholder="Phone number" required="required" oninvalid="this.setCustomValidity('Set this field')" oninput="setCustomValidity('')" />
                 <div class="agreement">
                     <label>
                         <input onchange="document.getElementById('submit2').disabled = !this.checked;" class="checkboxInput" type="checkbox" checked>
