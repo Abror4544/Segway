@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Segway Anyway</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+
+	<header class="header">
+        <nav class="menu">
+            <div class="container">
+                <div class="menu_navbar">
+                    <a href="#/" class="logoBlock"><img class="logo" src="images/logo.png"></a>
+                    <div class="menu_ul">
+                        <ul class="main_menu">
+                            <li class="menu_li"><a class="menuItem" href="#advantages">Advantages</a></li>
+                            <li class="menu_li"><a class="menuItem" href="#about">About the company</a></li>
+                            <li class="menu_li"><a class="menuItem" href="#work">Working scheme</a></li> 
+                            <li class="menu_li"><a class="menuItem" href="#faq">FAQ</a></li>
+                            <li class="menu_li"><a class="menuItem" href="#review">Reviews</a></li>
+                        </ul>     
+                    </div>
+                    <button class="menu_btn_bars">
+                        <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 8H20.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1.5H20.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 14.5H20.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="menu_btn_close">
+                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.5 1.25L1 13.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1 1.25L13.5 13.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="header_texts">         
+                <h3 data-aos="fade-down" class="mainTitle"><span>100%</span> private tours in <br>Valencia for you and your friends</h3>
+                <div class="headerMainBlock">
+                    <div class="left">
+                        <h4 class="leftTitle">Without extraneous persons in group</h4>
+                        <div class="leftMiniBlock">
+                            <div class="texts">
+                                <div class="textBlock">
+                                    <img src="images/headercheckicon.png">
+                                    <p class="text">Ability to adjust the route during the trip</p>
+                                </div>
+                                <div class="textBlock">
+                                    <img src="images/headercheckicon.png">
+                                    <p class="text">Insurance is included in the price</p>
+                                </div>
+                                <div class="textBlock">
+                                    <img src="images/headercheckicon.png">
+                                    <p class="text">Additional training time</p>
+                                </div>
+                                <div class="textBlock">
+                                    <img src="images/headercheckicon.png">
+                                    <p class="text">COVID-19 free</p>
+                                </div>
+                            </div>
+                            <div class="pechatBlock">
+                                <img class="pechat" src="images/bgpechat.png">
+                            </div>
+                        </div>
+                        <div class="certifyBlock">
+                            <p class="certifyText">Certified Segway Tour Oficial</p>
+                            <img src="images/segwaytourlogo.png">
+                        </div>
+                        <div class="formBlock">
+                            <form>
+                                <div class="inputs">
+                                    <input class="input" type="text" name="name" placeholder="Name" required="required">
+                                    <input class="input" type="text" name="phone" placeholder="Phone number" required="required">
+                                </div>
+                                <div class="buttonBlock">
+                                    <input id="submit1" type="submit" class="submitBtn" value="Send request">
+                                </div>
+                                <div class="agreement">
+                                    <label>
+                                        <input onchange="document.getElementById('submit1').disabled = !this.checked;" class="checkboxInput" type="checkbox" checked>
+                                        <div class="checkbox"><div class="checked"></div></div>
+                                        <p class="agreeText">I give my consent to the processing of personal data</p>
+                                    </label> 
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <img src="images/sgw.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <section id="advantages" class="one">
+        <div class="container">
+            <h3 data-aos="fade-down" class="mainTitle">8 reasons to place a tour order with us</h3>
+            <div class="row">
+                <div class="col-lg-10">
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg1.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">01</h4>
+                            <p class="reasonTag">CUSTOMIZED TOURS</p>
+                            <p class="reasonText">To make your experience totally unique we are ready to provide customized tours both for individuals and for private groups</p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg2.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">02</h4>
+                            <p class="reasonTag">FLEXIBILITY:</p>
+                            <p class="reasonText">The ability to change the route, as well as increase the tour time already while driving.</p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg3.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">03</h4>
+                            <p class="reasonTag">SEGWAY TOUR OFICIAL: </p>
+                            <p class="reasonText">Safety, quality, warranty.</p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg4.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">04</h4>
+                            <p class="reasonTag">OUR GUIDES: </p>
+                            <p class="reasonText">Our guides speak more than six languages and know the city like the palm of their hands! Besides the tour program they will show the corners of this charming city that you wouldn’t be able to explore any other way.</p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg5.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">05</h4>
+                            <p class="reasonTag">ADDITIONAL TRAINING TIME.</p>
+                            <p class="reasonText">We will provide safety instructions and free training before you start the trip. And yes, this is already included in the price. </p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg6.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">06</h4>
+                            <p class="reasonTag">COVID-19 FREE:</p>
+                            <p class="reasonText">all employees of the company have vaccinations or active tests with a negative result.</p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg7.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">07</h4>
+                            <p class="reasonTag">ADDITIONAL COSTS: </p>
+                            <p class="reasonText">insurance, helmets, water, coffee during stops-all this is already included in the price of the tour. </p>
+                            <p class="reasonText strong">Additional 10% discount: when paying in cash</p>
+                        </div>
+                    </div>
+                    <div class="reasonItem" data-aos="zoom-in">
+                        <div class="imgBlock">
+                            <img src="images/reasonimg8.png">
+                        </div>
+                        <div class="reasonTextBlock">
+                            <h4 class="reasonNumber">08</h4>
+                            <p class="reasonTag">PROFESSIONAL PHOTOS FOR FREE: </p>
+                            <p class="reasonText">We offer free professional pictures taken by one of our guides. This new option will give you a possibility to relive your segway tour </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="phoneAnimate">
+                    <a class="phoneAnimateBtn phoneAnimate formOpen" href="#/">
+                        <span class="vdz_cb_widget_icon" aria-hidden="true">
+                            <img src="images/phoneicon.png">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="two">
+        <div class="container">
+            <div class="factsTitleBlock">            
+                <h1 class="factsTitle">5 facts</h1>
+            </div>
+            <h3 data-aos="fade-down" class="mainTitle">5 facts about company:</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-10 col-sm-12">
+                    <div class="row benefits__inner">
+                        <div class="col-lg-4 col-md-6 col-sm-12 factsItem">
+                            <div class="imgBlock">
+                                <img src="images/facts1.png">
+                            </div>
+                            <h4 class="factsNumber benefits__number">4</h4>
+                            <p class="factsText">years on the market</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 factsItem">
+                            <div class="imgBlock">
+                                <img src="images/facts2.png">
+                            </div>
+                            <h4 class="factsNumber benefits__number">25</h4>
+                            <p class="factsText">segways available</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 factsItem">
+                            <div class="imgBlock">
+                                <img src="images/facts3.png">
+                            </div>
+                            <h4 class="factsNumber benefits__number">7879</h4>
+                            <p class="factsText">satisfied customers from all over the world</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 factsItem">
+                            <div class="imgBlock">
+                                <img src="images/facts4.png">
+                            </div>
+                            <h4 class="factsNumber benefits__number">12</h4>
+                            <p class="factsText">professional guides</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 factsItem">
+                            <div class="imgBlock">
+                                <img src="images/facts5.png">
+                            </div>
+                            <h4 class="factsNumber benefits__number">6</h4>
+                            <p class="factsText">we speak 6 languages</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 factsItem">
+                            <div class="imgBlock">
+                                <img src="images/facts6.png">
+                            </div>
+                            <h4 class="factsNumber benefits__number">27</h4>
+                            <p class="factsText">ready-made tours of Valencia and its surroundings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="three">
+        <div class="container">
+            <h3 data-aos="fade-down" class="mainTitle">How we work</h3>
+            <div class="row workBlock" data-aos="zoom-out">
+                <div class="col-lg-3 col-md-12 workItem">
+                    <div class="leftWorkItem"> 
+                        <div class="iconBlock">
+                            <img src="images/workicon1.png">
+                        </div>                   
+                        <h4 class="workTitle">request</h4>
+                        <p class="workText">You leave a request on the site.</p>
+                    </div>
+                    <div class="rightWorkItem"></div>
+                </div>
+                <div class="col-lg-3 col-md-12 workItem">
+                    <div class="leftWorkItem">
+                        <div class="iconBlock">
+                            <img src="images/workicon2.png">
+                        </div>
+                        <h4 class="workTitle">consultation</h4>
+                        <p class="workText">The expert will contact you for an individual consultation and clarify the details of the toura at a convenient time for you.</p>
+                    </div>
+                    <div class="rightWorkItem"></div>
+                </div>
+                <div class="col-lg-3 col-md-12 workItem">
+                    <div class="leftWorkItem">
+                        <div class="iconBlock">
+                            <img src="images/workicon3.png">
+                        </div>
+                        <h4 class="workTitle">booking</h4>
+                        <p class="workText">Pay for the reservation online or in the office-as you prefer.</p>
+                    </div>
+                    <div class="rightWorkItem"></div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 workItem last">
+                    <div class="leftWorkItem">
+                        <div class="iconBlock">
+                            <img src="images/workicon4.png">
+                        </div>                  
+                        <h4 class="workTitle">pleasure</h4>
+                        <p class="workText">Get a unique segway tour that is 100% right for you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="four">
+        <div class="container">
+            <h3 data-aos="fade-down" class="mainTitle">Which segway tour valencia is the best selling?</h3>
+
+            <div class="swiper-container swiper1" data-aos="zoom-in">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling1.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">Segway Night Tour, 90 min and 120 min experience</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">65 € – 75 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling2.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">3 Parks Segway Tour, 90 min and 120 min experience</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">55 € – 65 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling3.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">City of Arts and Sciences Segway Tour, 90min/120 min</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">50 € – 60 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling4.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">Grand City Segway Tour - Visit Valencia in 150 min/180 min</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">75 € – 80 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling1.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">Segway Night Tour, 90 min and 120 min experience</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">65 € – 75 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling2.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">3 Parks Segway Tour, 90 min and 120 min experience</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">55 € – 65 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling3.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">City of Arts and Sciences Segway Tour, 90min/120 min</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">50 € – 60 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling4.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">Grand City Segway Tour - Visit Valencia in 150 min/180 min</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">75 € – 80 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling1.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">Segway Night Tour, 90 min and 120 min experience</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">65 € – 75 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling2.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">3 Parks Segway Tour, 90 min and 120 min experience</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">55 € – 65 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling3.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">City of Arts and Sciences Segway Tour, 90min/120 min</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">50 € – 60 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="imgBlock">
+                            <img src="images/bestselling4.png">
+                        </div>
+                        <div class="bsTextBlock">
+                            <p class="bsText">Grand City Segway Tour - Visit Valencia in 150 min/180 min</p>
+                        </div>
+                        <div class="bsPriceBlock">
+                            <p class="bsPrice">75 € – 80 €</p>
+                        </div>
+                        <div class="linkBlock">
+                            <a href="#/" class="bsLink">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="swiper-button-next next1">
+                <img src="images/arrowright.png">
+            </div>
+            <div class="swiper-button-prev prev1">
+                <img src="images/arrowleft.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="five">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="submitSgw" src="images/sgw.png" data-aos="zoom-out">
+                </div>
+                <div class="col-lg-9 col-md-12 d-flex align-items-center justify-content-center">
+                    <div class="submitBlock">
+                        <h4 data-aos="fade-down" class="mainTitle">Submit your request now</h4>
+                        <h5 data-aos="fade-down" class="mainTitle miniTitle">And get a personalized offer for a SEGWAY TOUR</h5>
+                        <form data-aos="zoom-in">                        
+                            <div class="inputs">
+                                <input class="input" type="text" name="name" placeholder="Name" required="required">
+                                <input class="input" type="text" name="phone" placeholder="Phone number" required="required">
+                                <input id="submit3" type="submit" class="submitBtn" value="Send request">
+                            </div>
+                            <div class="agreement">
+                                <label>
+                                    <input onchange="document.getElementById('submit3').disabled = !this.checked;" class="checkboxInput" type="checkbox" checked>
+                                    <div class="checkbox"><div class="checked"></div></div>
+                                    <p class="agreeText">I give my consent to the processing of personal data</p>
+                                </label> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="six">
+        <div class="container">
+            <h3 data-aos="fade-down" class="mainTitle">FAQ</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12">
+                    <div class="accordionWrapper">
+                        <div class="accordionItem active">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">Do you really do private tours? Even if there are only 2 of us?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText textActive">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">We want a group tour. There are more than 15 of us. Can you organize such a trip?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">Are there any extra fees that I will have to pay on top of the listed price?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">What is your refund and cancellation policy?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">If during the tour I want to change the route or extend it in time-can I do it?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">Are there any stops during the tours?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">Can I get an additional discount?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                        <div class="accordionItem">
+                            <div class="accordionShow">                            
+                                <h5 class="accordionTitle">Are we going hiking even though it’s raining and windy?</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.306in" height="0.153in">
+                                    <path fill-rule="evenodd"  opacity="0.302" fill="rgb(0, 0, 0)" d="M21.000,1.000 L21.000,2.000 L20.000,2.000 L20.000,3.000 L19.000,3.000 L19.000,4.000 L18.000,4.000 L18.000,5.000 L17.000,5.000 L17.000,6.000 L16.000,6.000 L16.000,7.000 L15.000,7.000 L15.000,8.000 L14.000,8.000 L14.000,9.000 L13.000,9.000 L13.000,10.000 L12.000,10.000 L12.000,11.000 L10.000,11.000 L10.000,10.000 L9.000,10.000 L9.000,9.000 L8.000,9.000 L8.000,8.000 L7.000,8.000 L7.000,7.000 L6.000,7.000 L6.000,6.000 L5.000,6.000 L5.000,5.000 L4.000,5.000 L4.000,4.000 L3.000,4.000 L3.000,3.000 L2.000,3.000 L2.000,2.000 L1.000,2.000 L1.000,1.000 L-0.000,1.000 L-0.000,-0.000 L2.000,-0.000 L2.000,1.000 L3.000,1.000 L3.000,2.000 L4.000,2.000 L4.000,3.000 L5.000,3.000 L5.000,4.000 L6.000,4.000 L6.000,5.000 L7.000,5.000 L7.000,6.000 L8.000,6.000 L8.000,7.000 L9.000,7.000 L9.000,8.000 L10.000,8.000 L10.000,9.000 L11.000,9.000 L12.000,9.000 L12.000,8.000 L13.000,8.000 L13.000,7.000 L14.000,7.000 L14.000,6.000 L15.000,6.000 L15.000,5.000 L16.000,5.000 L16.000,4.000 L17.000,4.000 L17.000,3.000 L18.000,3.000 L18.000,2.000 L19.000,2.000 L19.000,1.000 L20.000,1.000 L20.000,-0.000 L22.000,-0.000 L22.000,1.000 L21.000,1.000 Z"/>
+                                </svg>
+                            </div>
+                            <p class="accordionText">Yes, the guide will only accompany you and your companions. No outsiders.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="review" class="seven">
+        <div class="container">
+            <h3 data-aos="fade-down" class="mainTitle">What do our guests say about us?</h3>
+            <div class="swiper-container swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="reviewItem">                        
+                            <div class="topReview">
+                                <div class="imgBlock">
+                                    <img src="images/review1.png">
+                                </div>
+                                <div class="infoReview">
+                                    <div class="nameBlock">
+                                        <p class="name">rlalonde57</p>
+                                    </div>
+                                    <div class="addressBlock">
+                                        <p class="address">Sarasote, Florida</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="titleReview">¨Segway to City of Arts and Sciences¨</p>
+                            <p class="textReview">I had a great Segway tour to the City of Arts and Sciences in Valencia. First time on Segway and it worked out great. Fabulous architecture and views. Patrik, my tour guide was excellent. I highly recommend it, it was a lot of fun.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviewItem"> 
+                            <div class="topReview">
+                                <div class="imgBlock">
+                                    <img src="images/review2.png">
+                                </div>
+                                <div class="infoReview">
+                                    <div class="nameBlock">
+                                        <p class="name">HeatherER</p>
+                                    </div>
+                                    <div class="addressBlock">
+                                        <p class="address">Huddersfield, United Kingdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="titleReview">¨Fantastic way to see some of beautiful Valencia¨</p>
+                            <p class="textReview">Surprisingly easy to do and great fun. Patrick was a great guide on our way through the park to the City of the Future which is well worth seeing</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviewItem">                        
+                            <div class="topReview">
+                                <div class="imgBlock">
+                                    <img src="images/review1.png">
+                                </div>
+                                <div class="infoReview">
+                                    <div class="nameBlock">
+                                        <p class="name">rlalonde57</p>
+                                    </div>
+                                    <div class="addressBlock">
+                                        <p class="address">Sarasote, Florida</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="titleReview">¨Segway to City of Arts and Sciences¨</p>
+                            <p class="textReview">I had a great Segway tour to the City of Arts and Sciences in Valencia. First time on Segway and it worked out great. Fabulous architecture and views. Patrik, my tour guide was excellent. I highly recommend it, it was a lot of fun.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviewItem"> 
+                            <div class="topReview">
+                                <div class="imgBlock">
+                                    <img src="images/review2.png">
+                                </div>
+                                <div class="infoReview">
+                                    <div class="nameBlock">
+                                        <p class="name">HeatherER</p>
+                                    </div>
+                                    <div class="addressBlock">
+                                        <p class="address">Huddersfield, United Kingdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="titleReview">¨Fantastic way to see some of beautiful Valencia¨</p>
+                            <p class="textReview">Surprisingly easy to do and great fun. Patrick was a great guide on our way through the park to the City of the Future which is well worth seeing</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviewItem">                        
+                            <div class="topReview">
+                                <div class="imgBlock">
+                                    <img src="images/review1.png">
+                                </div>
+                                <div class="infoReview">
+                                    <div class="nameBlock">
+                                        <p class="name">rlalonde57</p>
+                                    </div>
+                                    <div class="addressBlock">
+                                        <p class="address">Sarasote, Florida</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="titleReview">¨Segway to City of Arts and Sciences¨</p>
+                            <p class="textReview">I had a great Segway tour to the City of Arts and Sciences in Valencia. First time on Segway and it worked out great. Fabulous architecture and views. Patrik, my tour guide was excellent. I highly recommend it, it was a lot of fun.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="reviewItem"> 
+                            <div class="topReview">
+                                <div class="imgBlock">
+                                    <img src="images/review2.png">
+                                </div>
+                                <div class="infoReview">
+                                    <div class="nameBlock">
+                                        <p class="name">HeatherER</p>
+                                    </div>
+                                    <div class="addressBlock">
+                                        <p class="address">Huddersfield, United Kingdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="titleReview">¨Fantastic way to see some of beautiful Valencia¨</p>
+                            <p class="textReview">Surprisingly easy to do and great fun. Patrick was a great guide on our way through the park to the City of the Future which is well worth seeing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <div class="swiper-button-next next2">
+                <img src="images/arrowright.png">
+            </div>
+            <div class="swiper-button-prev prev2">
+                <img src="images/arrowleft.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="eight">    
+        <div class="container"> 
+            <h3 data-aos="fade-down" class="mainTitle">What you need to do now</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">                
+                    <div class="texts">
+                        <div class="textBlock">
+                            <div class="dot"></div>
+                            <p class="text">Fill out the form</p>
+                        </div>
+                        <div class="textBlock">
+                            <div class="dot"></div>
+                            <p class="text">Coordinate all the details of the tour with a specialist</p>
+                        </div>
+                        <div class="textBlock">
+                            <div class="dot"></div>
+                            <p class="text">Get a unique segway tour that is 100% right for you.</p>
+                        </div>
+                    </div>
+                    <div class="formBlock" data-aos="zoom-in">
+                        <form>
+                            <div class="inputs">
+                                <input class="input" type="text" name="name" placeholder="Name" required="required">
+                                <input class="input" type="text" name="phone" placeholder="Phone number" required="required">
+                            </div>
+                            <div class="buttonBlock">
+                                <input id="submit4" type="submit" class="submitBtn" value="Send request">
+                            </div>
+                            <div class="agreement">
+                                <label>
+                                    <input onchange="document.getElementById('submit4').disabled = !this.checked;" class="checkboxInput" type="checkbox" checked>
+                                    <div class="checkbox"><div class="checked"></div></div>
+                                    <p class="agreeText">I give my consent to the processing of personal data</p>
+                                </label> 
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 right">
+                    <img src="images/3seg.png">
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <div class="formWrapper">
+        <div class="formBlock">
+            <img class="formClose" src="images/formClose.png">
+            <form>
+                <h4 data-aos="fade-down" class="mainTitle">Back call</h4>
+                <input type="text" name="name" class="input" placeholder="Name" required="required">
+                <input type="text" name="name" class="input" placeholder="Phone number" required="required">
+                <div class="agreement">
+                    <label>
+                        <input onchange="document.getElementById('submit2').disabled = !this.checked;" class="checkboxInput" type="checkbox" checked>
+                        <div class="checkbox"><div class="checked"></div></div>
+                        <p class="agreeText">I give my consent to the processing of personal data</p>
+                    </label> 
+                </div>
+                <div class="buttonBlock">
+                    <input id="submit2" type="submit" class="submitBtn" value="Send request">
+                </div>
+            </form>
+        </div>
+    </div> <footer>
+       <div class="container">
+          <div class="texts">
+             <p class="text">Blagovest S.L. © 2021</p>
+             <p class="text">Segway Anyway Valencia Carrer de l'Herba, 4, 46003 València</p>
+         </div>
+     </div>
+ </footer>
+
+ <script>
+  AOS.init();
+</script>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.spincrement.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
