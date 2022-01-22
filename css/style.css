@@ -85,7 +85,9 @@
   font-family: 'RubikOne-Regular';
   src: url("../fonts/RubikOne-Regular.ttf");
 }
-
+section{
+overflow:hidden;
+}
 .header {
   background: url("../images/headerbg.png") no-repeat center center/cover;
   background-size: 68%;
