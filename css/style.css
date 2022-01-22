@@ -85,7 +85,8 @@
   font-family: 'RubikOne-Regular';
   src: url("../fonts/RubikOne-Regular.ttf");
 }
-section{
+section.four,
+section.seven{
 overflow:hidden;
 }
 .header {
